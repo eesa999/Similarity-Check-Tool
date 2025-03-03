@@ -47,8 +47,7 @@ Ensure you have the following installed:
    ```sh
    ollama run command-r7b-arabic
    ```
-
-   This will download and prepare the model for use.
+   You can use any model available on Ollama. Check the list of models at Ollama's model search and choose the one that best fits your needs.
 
 6. **Excel files** (`trusted_file.xlsx` & `similarity_file.xlsx`)
 
