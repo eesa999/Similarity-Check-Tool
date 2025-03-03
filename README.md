@@ -1,12 +1,12 @@
 # Similarity Check Tool
 
-This project is a Python-based tool that utilizes the Ollama AI model to analyze geographical and semantic similarity between textual entries. It is designed to help determine whether two given texts refer to the same entity, name, or location, despite minor differences in wording.
+This project is a Python-based tool that utilizes the **Ollama AI model** to analyze **geographical and semantic similarity** between textual entries. It is designed to help determine whether two given texts refer to the same entity, name, or location, despite minor differences in wording.
 
 ---
 
 ## 📌 Features
 
-- Uses **AI-powered text similarity analysis** to detect equivalent place names.
+- Uses **AI-powered text similarity analysis** to detect equivalent names or entities.
 - Processes data from **Excel files**.
 - **Filters** and **matches** similar entries.
 - Exports results in an Excel file for easy review.
@@ -42,12 +42,13 @@ Ensure you have the following installed:
 
    If this command returns a version number, Ollama is installed correctly.
 
-5. **Download the required model**:
+5. **Download a model for use**:
 
    ```sh
    ollama run command-r7b-arabic
    ```
-   You can use any model available on Ollama. Check the list of models at Ollama's model search and choose the one that best fits your needs.
+
+   You can use **any model** available on Ollama. Check the list of models at [Ollama's model search](https://ollama.com/search) and choose the one that best fits your needs.
 
 6. **Excel files** (`trusted_file.xlsx` & `similarity_file.xlsx`)
 
@@ -92,5 +93,5 @@ Ensure you have the following installed:
 
 ## 🔹 Important Note
 
-The `system_message` in the script has been updated to be more **generic**. Users must customize it to fit their **specific use case**, such as judicial institutions, geographical locations, or product names. Modify the `system_message` content in the script as needed to align with your domain-specific requirements.
+The `system_message` in the script has been updated to be more **generic**. Users must customize it to fit their **specific use case**, such as comparing product names, business entities, geographic locations, or other domain-specific needs. Modify the `system_message` content in the script as needed to align with your requirements.
 
