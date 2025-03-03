@@ -55,7 +55,7 @@ Ensure you have the following installed:
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/your-repo/similarity-check-tool.git
+   git clone https://github.com/eesa999/Similarity-Check-Tool.git
    cd similarity-check-tool
    ```
 
