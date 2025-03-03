@@ -1,6 +1,6 @@
 # Similarity Check Tool
 
-This project is a Python-based tool that utilizes the **Ollama AI model** to analyze **geographical and semantic similarity** between textual entries. It is particularly designed for judicial institutions in **Saudi Arabia**, helping determine whether two given texts refer to the same place or entity, despite minor differences in wording.
+This project is a Python-based tool that utilizes the Ollama AI model to analyze geographical and semantic similarity between textual entries. It is designed to help determine whether two given texts refer to the same entity, name, or location, despite minor differences in wording.
 
 ---
 
