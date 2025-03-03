@@ -26,6 +26,7 @@ Ensure you have the following installed:
    ```
 
 3. **Install Ollama** (if not already installed):
+
    - For macOS and Linux:
      ```sh
      curl -fsSL https://ollama.com/install.sh | sh
@@ -34,18 +35,23 @@ Ensure you have the following installed:
      - Download the installer from [Ollama's official website](https://ollama.com) and follow the installation instructions.
 
 4. **Verify Ollama installation**:
+
    ```sh
    ollama --version
    ```
+
    If this command returns a version number, Ollama is installed correctly.
 
 5. **Download the required model**:
+
    ```sh
    ollama run command-r7b-arabic
    ```
+
    This will download and prepare the model for use.
 
 6. **Excel files** (`trusted_file.xlsx` & `similarity_file.xlsx`)
+
    - Ensure the files contain the columns **`ID`** and **`NAME`**
 
 ---
@@ -55,7 +61,7 @@ Ensure you have the following installed:
 1. Clone this repository:
 
    ```sh
-   git clone https://github.com/eesa999/Similarity-Check-Tool.git
+   git https://github.com/eesa999/Similarity-Check-Tool.git
    cd similarity-check-tool
    ```
 
@@ -82,3 +88,10 @@ Ensure you have the following installed:
 3. **Applies AI-based text similarity** using the `check_similarity` function.
 4. **Filters** the results to keep only the rows where similarity was confirmed.
 5. **Saves** the final matched data into `final_result.xlsx`.
+
+---
+
+## 🔹 Important Note
+
+The `system_message` in the script has been updated to be more **generic**. Users must customize it to fit their **specific use case**, such as judicial institutions, geographical locations, or product names. Modify the `system_message` content in the script as needed to align with your domain-specific requirements.
+
